@@ -1,0 +1,17 @@
+{
+  "name": "CognitiveCare",
+  "short_name": "CogCare",
+  "description": "Exercise your memory every day. A cognitive engagement and memory-support tool.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F0F7FA",
+  "theme_color": "#2E86AB",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
