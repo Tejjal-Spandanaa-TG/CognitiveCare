@@ -1,4 +1,4 @@
-const PREFIX = 'lifereplay_games_';
+const PREFIX = 'cognitivecare_';
 
 function getKey(key) {
   return PREFIX + key;

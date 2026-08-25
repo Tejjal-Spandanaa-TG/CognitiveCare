@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lifereplay-games-v1';
+const CACHE_NAME = 'cognitivecare-v1';
 const ASSETS = [
   '/',
   '/index.html',

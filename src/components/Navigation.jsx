@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <header className="app-header">
       <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <h1 className="header-logo">🧠 LifeReplay games</h1>
+        <h1 className="header-logo">🧠 CognitiveCare</h1>
       </Link>
       <div className="header-actions">
         {auth && (

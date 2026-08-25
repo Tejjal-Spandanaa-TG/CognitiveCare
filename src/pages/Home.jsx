@@ -35,7 +35,7 @@ export default function Home() {
   }, []);
 
   const handleVoiceAssistant = () => {
-    speak('Welcome to LifeReplay games. Choose a game or section.');
+    speak('Welcome to CognitiveCare. Choose a game or section.');
   };
 
   const auth = getAuth();
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="home-logo-wrap">
           <div className="home-logo">🧠</div>
         </div>
-        <h1 className="home-title">LifeReplay games</h1>
+        <h1 className="home-title">CognitiveCare</h1>
         <p className="home-tagline">Exercise your memory every day</p>
       </div>
 

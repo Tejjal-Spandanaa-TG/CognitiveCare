@@ -1,6 +1,6 @@
 const en = {
   app: {
-    name: 'LifeReplay games',
+    name: 'CognitiveCare',
     tagline: 'Exercise your memory every day',
     description: 'Designed to support cognitive engagement, memory practice, and daily mental activities.',
     online: 'Online',
@@ -132,7 +132,7 @@ const en = {
     perfect: 'Perfect score!',
   },
   voice: {
-    welcome: 'Welcome to LifeReplay games.',
+    welcome: 'Welcome to CognitiveCare.',
     chooseGame: 'Choose a game.',
     startMyDay: 'Starting My Day My Way.',
     openGames: 'Opening Cognitive Games.',

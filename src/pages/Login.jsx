@@ -29,7 +29,7 @@ export default function Login() {
     const match = DEMO_CREDENTIALS.find(c => c.username === username && c.password === password);
     if (match) {
       saveAuth({ username: match.username, role: match.role, displayName: match.displayName });
-      speak('Welcome to LifeReplay games, ' + match.displayName);
+      speak('Welcome to CognitiveCare, ' + match.displayName);
       navigate('/');
     } else {
       setError('Invalid username or password. Try: admin / admin123');
@@ -43,7 +43,7 @@ export default function Login() {
       return;
     }
     saveAuth({ username: newUser.username, role: newUser.role, displayName: newUser.username });
-    speak('Account created. Welcome to LifeReplay games.');
+    speak('Account created. Welcome to CognitiveCare.');
     navigate('/');
   };
 
@@ -52,7 +52,7 @@ export default function Login() {
       <div className="login-container">
         <div className="login-brand">
           <div className="login-logo">🧠</div>
-          <h1 className="login-title">LifeReplay games</h1>
+          <h1 className="login-title">CognitiveCare</h1>
           <p className="login-tagline">Exercise your memory every day</p>
         </div>
 
